@@ -24,7 +24,7 @@ public class Main {
 ## String
 Strings in Java are immutable, meaning that once a String object is created, it cannot be changed. When you assign a String to another String variable, you are copying the reference to the same String object rather than creating a new object.
 
-### Example with Primitive Types
+### Example with String
 
 ```java
 public class Main {
@@ -44,7 +44,7 @@ public class Main {
 
 # Summary
 
-## Example with Strings
+## Primitive Types
 
 - **Stored by value.**
 - **Assignment creates a copy of the value.**
