@@ -76,6 +76,7 @@ public class Post {
 }
 ```
 ### Here’s how you would use the Post class with the Builder:
+
 ```java
 public class Main {
 public static void main(String[] args) {
