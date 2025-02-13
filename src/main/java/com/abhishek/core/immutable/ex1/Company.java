@@ -1,4 +1,4 @@
-package com.abhishek.immutable.ex1;
+package com.abhishek.core.immutable.ex1;
 
 public class Company {
     private String companyName;

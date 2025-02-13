@@ -1,4 +1,4 @@
-package com.abhishek.creational.factory;
+package com.abhishek.design.pattern.creational.factory;
 
 import lombok.extern.slf4j.Slf4j;
 

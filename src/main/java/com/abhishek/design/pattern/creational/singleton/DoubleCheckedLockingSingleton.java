@@ -1,4 +1,4 @@
-package com.abhishek.creational.singleton;
+package com.abhishek.design.pattern.creational.singleton;
 
 public class DoubleCheckedLockingSingleton {
 

@@ -1,4 +1,4 @@
-package com.abhishek.creational.builder;
+package com.abhishek.design.pattern.creational.builder;
 
 import lombok.ToString;
 

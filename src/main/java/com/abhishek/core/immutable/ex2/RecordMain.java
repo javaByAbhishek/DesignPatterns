@@ -1,4 +1,4 @@
-package com.abhishek.immutable.ex2;
+package com.abhishek.core.immutable.ex2;
 
 import java.util.ArrayList;
 
