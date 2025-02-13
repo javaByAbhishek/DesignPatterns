@@ -1,12 +1,11 @@
 # **Microservices Communication**
 
 ## **1. Overview of Microservices Architecture**
+![Microservices Diagram](https://github.com/javaByAbhishek/abhishek-tech-notes/blob/main/src/main/resources/assets/MS.JPG?raw=true)
+
 - Microservices architecture consists of multiple independent services working together as a large system.
 - Each microservice is a standalone web service running on a unique port.
 - Clients (e.g., mobile apps, web apps) communicate with microservices using **HTTP requests**.
-
-**_Refer to the first section of the image for a visual representation of microservices communication._**
-
 ---
 
 ## **2. Key Components of a Microservices System**
@@ -44,6 +43,8 @@ _(Refer to the first section of the image to see how HTTP requests and responses
 #### **3.2.1 Synchronous Communication**
 - One microservice sends a request and **waits** for a response.
 - Used when an immediate response is required.
+  ![Microservices Diagram](https://github.com/javaByAbhishek/abhishek-tech-notes/blob/main/src/main/resources/assets/MS2.JPG?raw=true)
+
 - **Example:** _(Refer to the second section of the image)_
    - Albums Microservice sends an **HTTP GET request** to Photos Microservice.
    - It waits until it receives a **JSON array of photos** or a timeout occurs.
@@ -67,6 +68,7 @@ _(Refer to the first section of the image to see how HTTP requests and responses
 2. **Scalability Issue**
    - If a new **Shipping Microservice** is added, Orders Microservice needs to be **updated** to send HTTP requests to it.
    - Every time a new microservice is added, **code changes** are required.
+     ![Microservices Diagram](https://github.com/javaByAbhishek/abhishek-tech-notes/blob/main/src/main/resources/assets/MS3.JPG?raw=true)
 
 _(Refer to the third section of the image, where Orders Microservice sends notifications to multiple services, but Email Notification Microservice fails.)_
 
@@ -97,5 +99,3 @@ _(Refer to the third section of the image, where Orders Microservice sends notif
 - **Event-driven communication (Kafka)** is better for scalable and fault-tolerant systems.
 
 ---
-
-This structured note aligns with the provided image, referencing the relevant sections where applicable. You can insert the image into your document at the suggested points for better understanding. Let me know if you need any modifications!
